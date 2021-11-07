@@ -2,7 +2,7 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
 
 (asciiHeader 
   (asciiVersion 3 0)
-  (timeStamp 2021 11 7 18 36 18)
+  (timeStamp 2021 11 7 20 19 24)
   (program "P-CAD 2006 PCB" "19.02.9589")
   (copyright "Copyright © 1991-2006 Altium Limited")
   (fileAuthor "")
@@ -415,13 +415,11 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "R4" "2")
   )
   (net "OVERCUR2" 
+    (node "U7" "8")
     (node "U1" "6")
     (node "R6" "1")
-    (node "U7" "8")
   )
   (net "3V3" 
-    (node "R5" "2")
-    (node "R6" "2")
     (node "U7" "23")
     (node "U7" "13")
     (node "U7" "37")
@@ -429,6 +427,8 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "U7" "25")
     (node "U7" "48")
     (node "U7" "7")
+    (node "R5" "2")
+    (node "R6" "2")
     (node "C41" "2")
     (node "R17" "2")
     (node "R18" "2")
@@ -442,6 +442,7 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "C20" "1")
   )
   (net "GND" 
+    (node "U7" "49")
     (node "VD3" "2")
     (node "VD2" "2")
     (node "VD1" "2")
@@ -553,9 +554,9 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "R12" "1")
   )
   (net "OVERCUR1" 
+    (node "U7" "5")
     (node "U1" "10")
     (node "R5" "1")
-    (node "U7" "5")
   )
   (net "NET00000" 
     (node "L1" "1")
@@ -566,28 +567,28 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "VD1" "1")
   )
   (net "RX+UP" 
-    (node "X1" "14")
-    (node "X1" "3")
+    (node "X1" "15")
     (node "U7" "32")
+    (node "X1" "3")
     (node "U4" "1")
     (node "U4" "14")
   )
   (net "RX-UP" 
-    (node "X1" "15")
-    (node "X1" "2")
+    (node "X1" "14")
     (node "U7" "31")
+    (node "X1" "2")
     (node "U4" "2")
     (node "U4" "13")
   )
   (net "NET00003" 
-    (node "BQ1" "1")
     (node "U7" "39")
+    (node "BQ1" "1")
     (node "C35" "1")
     (node "R20" "2")
   )
   (net "NET00004" 
-    (node "BQ1" "2")
     (node "U7" "38")
+    (node "BQ1" "2")
     (node "C36" "1")
     (node "R20" "1")
   )
@@ -629,18 +630,18 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "R17" "1")
   )
   (net "BATEN1" 
+    (node "U7" "4")
     (node "U1" "4")
     (node "R2" "2")
-    (node "U7" "4")
   )
   (net "NET00026" 
     (node "U7" "40")
     (node "C34" "1")
   )
   (net "BATEN2" 
+    (node "U7" "6")
     (node "U1" "5")
     (node "R3" "2")
-    (node "U7" "6")
   )
   (net "VBUS_DN1" 
     (node "R7" "2")
@@ -665,8 +666,8 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "R8" "1")
   )
   (net "NET00053" 
-    (node "C31" "2")
     (node "U7" "16")
+    (node "C31" "2")
   )
   (net "TX-DN1" 
     (node "X2" "6")
@@ -675,14 +676,14 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "U2" "12")
   )
   (net "RX+DN1" 
-    (node "X2" "8")
     (node "U7" "46")
+    (node "X2" "8")
     (node "U2" "2")
     (node "U2" "13")
   )
   (net "D-DN2" 
-    (node "X3" "3")
     (node "U7" "15")
+    (node "X3" "3")
     (node "U3" "6")
     (node "U3" "9")
   )
@@ -691,16 +692,16 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "C39" "2")
   )
   (net "TX+UP" 
+    (node "X1" "23")
     (node "X1" "11")
-    (node "X1" "22")
     (node "C39" "1")
     (node "U4" "3")
     (node "U4" "12")
   )
   (net "D+UP" 
+    (node "U7" "26")
     (node "X1" "7")
     (node "X1" "19")
-    (node "U7" "26")
     (node "U4" "7")
     (node "U4" "8")
   )
@@ -709,8 +710,8 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "C44" "2")
   )
   (net "RX-DN1" 
-    (node "X2" "9")
     (node "U7" "47")
+    (node "X2" "9")
     (node "U2" "1")
     (node "U2" "14")
   )
@@ -729,14 +730,14 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "C32" "1")
   )
   (net "D-DN1" 
-    (node "X2" "3")
     (node "U7" "42")
+    (node "X2" "3")
     (node "U2" "6")
     (node "U2" "9")
   )
   (net "D+DN1" 
-    (node "X2" "2")
     (node "U7" "41")
+    (node "X2" "2")
     (node "U2" "7")
     (node "U2" "8")
   )
@@ -747,14 +748,14 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "C32" "2")
   )
   (net "D+DN2" 
-    (node "X3" "2")
     (node "U7" "14")
+    (node "X3" "2")
     (node "U3" "7")
     (node "U3" "8")
   )
   (net "NET00057" 
-    (node "C33" "2")
     (node "U7" "17")
+    (node "C33" "2")
   )
   (net "TX+DN2" 
     (node "X3" "5")
@@ -763,14 +764,14 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "U3" "11")
   )
   (net "RX-DN2" 
-    (node "X3" "9")
     (node "U7" "20")
+    (node "X3" "9")
     (node "U3" "1")
     (node "U3" "14")
   )
   (net "RX+DN2" 
-    (node "X3" "8")
     (node "U7" "19")
+    (node "X3" "8")
     (node "U3" "2")
     (node "U3" "13")
   )
@@ -781,15 +782,15 @@ ACCEL_ASCII "C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.
     (node "U3" "12")
   )
   (net "D-UP" 
+    (node "U7" "27")
     (node "X1" "6")
     (node "X1" "18")
-    (node "U7" "27")
     (node "U4" "6")
     (node "U4" "9")
   )
   (net "TX-UP" 
+    (node "X1" "22")
     (node "X1" "10")
-    (node "X1" "23")
     (node "C44" "1")
     (node "U4" "4")
     (node "U4" "11")
