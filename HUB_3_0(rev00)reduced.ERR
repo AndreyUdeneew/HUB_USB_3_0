@@ -1,0 +1,35 @@
+Netlist filename: C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)fromSCH.net
+Warning: Net NET00013 has less than two nodes.
+Error: Net:Node +5V:FB2-1 found in the netlist but not on the board.
+Error: Net:Node RX+UP:X4-8 found in the netlist but not on the board.
+Error: Net:Node RX+UP:U7-31 found in the netlist but not on the board.
+Error: Net:Node RX-UP:X4-9 found in the netlist but not on the board.
+Error: Net:Node RX-UP:U7-32 found in the netlist but not on the board.
+Error: Net:Node VBUS_DN1:FB1-1 found in the netlist but not on the board.
+Error: Net:Node VBUS_DN2:FB3-1 found in the netlist but not on the board.
+Error: Net:Node TX+UP:C44-1 found in the netlist but not on the board.
+Error: Net:Node TX+UP:X4-5 found in the netlist but not on the board.
+Error: Net:Node TX-UP:X4-6 found in the netlist but not on the board.
+Error: Net:Node TX-UP:C39-1 found in the netlist but not on the board.
+Error: Net:Node VBUS_UP:FB2-2 found in the netlist but not on the board.
+Error: Net:Node VBUS_DN1_CON:FB1-2 found in the netlist but not on the board.
+Error: Net:Node VBUS_DN2_CON:FB3-2 found in the netlist but not on the board.
+Error: Net:Node GND:U1-11 found on the board but not in the netlist.
+Error: Net:Node GND:U7-49 found on the board but not in the netlist.
+Error: Net:Node +5V:FB2-2 found on the board but not in the netlist.
+Error: Net:Node RX+UP:X4-9 found on the board but not in the netlist.
+Error: Net:Node RX+UP:U7-32 found on the board but not in the netlist.
+Error: Net:Node RX-UP:X4-8 found on the board but not in the netlist.
+Error: Net:Node RX-UP:U7-31 found on the board but not in the netlist.
+Error: Net:Node VBUS_DN1:FB1-2 found on the board but not in the netlist.
+Error: Net:Node VBUS_DN2:FB3-2 found on the board but not in the netlist.
+Error: Net:Node TX+UP:X4-6 found on the board but not in the netlist.
+Error: Net:Node TX+UP:C39-1 found on the board but not in the netlist.
+Error: Net:Node TX-UP:X4-5 found on the board but not in the netlist.
+Error: Net:Node TX-UP:C44-1 found on the board but not in the netlist.
+Error: Net:Node VBUS_UP:FB2-1 found on the board but not in the netlist.
+Error: Net:Node VBUS_DN1_CON:FB1-1 found on the board but not in the netlist.
+Error: Net:Node VBUS_DN2_CON:FB3-1 found on the board but not in the netlist.
+
+1 warning(s) detected.
+30 error(s) detected.
