@@ -1,3 +1,7 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
 C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)reduced.drc:
 
 
@@ -56,6 +60,15 @@ Unrouted Nets:                          On
 Unconnected Pins:                       Off
 Net Length Violations:                  Off
 Silk Violations:                        Off
+
+----------------------------------------------------------------------
+
+12-Nov-21  19:56                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
 Copper Pour Violations:                 Off
 Plane Violations:                       On
 Component Violations:                   Off
@@ -114,6 +127,15 @@ PLANE VIOLATIONS:
 0 warning(s) detected.
 0 error(s) detected.
 
+----------------------------------------------------------------------
+
+12-Nov-21  19:56                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+
 DRC Summary:
 ------------
 
@@ -129,3 +151,48 @@ Unrouted Nets:
 Plane:
 	Errors:   0
 	Warnings: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+12-Nov-21  19:56                                            Page    3
+
