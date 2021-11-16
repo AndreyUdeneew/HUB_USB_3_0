@@ -1,0 +1,198 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+C:\YandexDisk\MyPCADprojects\HUB\HUB_USB_3_0\HUB_3_0(rev00)correctedVias.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Silk Screen Clearance:  12.0mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.200     0.200     0.200     0.200     0.200     0.200
+GND_LAYER             0.200     0.200     0.200     0.200     0.200     0.200
+5V_1V1_LAYER          0.200     0.200     0.200     0.200     0.200     0.200
+Bottom                0.200     0.200     0.200     0.200     0.200     0.200
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       Off
+Clearance Violations:                   On
+  Ignored Rules:
+    Outside Board Area
+Text Violations:                        Off
+Same-Parent-Component Pad Violations:   Off
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       Off
+Net Length Violations:                  Off
+Silk Violations:                        Off
+
+----------------------------------------------------------------------
+
+16-Nov-21  20:03                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Copper Pour Violations:                 Off
+Plane Violations:                       On
+Component Violations:                   Off
+Drill Violations:                       Off
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST VIOLATIONS:
+
+Warning 1 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Line at (444.200, 81.050):(444.200, 80.900) mm [Top layer]
+   * Via at (444.350, 80.650) mm
+Warning 2 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Line at (444.250, 81.050):(444.250, 80.850) mm [Top layer]
+   * Via at (444.350, 80.650) mm
+Warning 3 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Line at (444.250, 80.850):(444.400, 80.700) mm [Top layer]
+   * Via at (444.350, 80.650) mm
+Warning 4 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Line at (444.200, 80.900):(444.250, 80.850) mm [Top layer]
+   * Via at (444.350, 80.650) mm
+Warning 5 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Via at (444.350, 80.650) mm
+   * Line at (444.650, 80.450):(444.400, 80.700) mm [Top layer]
+Warning 6 -- Objects in Net 3V3 are physically connected but not routed point-t
+o-point.
+   * Via at (444.350, 80.650) mm
+   * Line at (444.400, 80.700):(444.350, 80.700) mm [Top layer]
+
+6 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+----------------------------------------------------------------------
+
+16-Nov-21  20:03                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+
+DRC Summary:
+------------
+
+Netlist:
+	Errors:   0
+	Warnings: 6
+Clearance:
+	Errors:   0
+	Warnings: 0
+Unrouted Nets:
+	Errors:   0
+	Warnings: 0
+Plane:
+	Errors:   0
+	Warnings: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+16-Nov-21  20:03                                            Page    3
+
